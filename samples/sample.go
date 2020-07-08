@@ -5,7 +5,8 @@ package main
 
 import (
 	"fmt"
-	"go-cidr-manager/ipv4cidr"
+
+	"github.com/microsoft/go-cidr-manager/ipv4cidr"
 )
 
 func main() {
