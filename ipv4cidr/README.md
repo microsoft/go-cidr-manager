@@ -17,4 +17,4 @@ The package `IPv4CIDR` contains utilities to perform the following operations:
 ## To Use
 Import the package into your code using:
 
-    import "github.com/microsoft/go-cidr-manager/ipv4cidr
+    import "github.com/microsoft/go-cidr-manager/ipv4cidr"
