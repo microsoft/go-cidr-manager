@@ -69,7 +69,7 @@ func TestCheckStandarized(t *testing.T) {
 	netMask := GetNetmask(mask)
 
 	err := CheckStandardized(standardIP, netMask)
-	assert.Equal(t, err, "10.10.0.0/20 is a standard CIDR representation. No error should be thrown")
+	assert.Nil(t, err, "10.10.0.0/20 is a standard CIDR representation. No error should be thrown")
 
 	err = CheckStandardized(nonStandardIP, netMask)
 	if assert.Error(t, err, "IP from a non-standard IP/CIDR was passed. An error should be thrown.") {
