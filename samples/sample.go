@@ -1,7 +1,7 @@
 // Copyright (c) Microsoft Corporation.
 // Licensed under the MIT License.
 
-package main
+package sample
 
 import (
 	"fmt"
@@ -9,7 +9,8 @@ import (
 	"github.com/microsoft/go-cidr-manager/ipv4cidr"
 )
 
-func main() {
+// IPv4Sample contains sample usage for IPv4CIDR package
+func IPv4Sample() {
 
 	IP, err := ipv4cidr.NewIPv4CIDR("10.10.0.0/26", true)
 	if err != nil {
