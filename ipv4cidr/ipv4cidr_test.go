@@ -6,7 +6,7 @@ package ipv4cidr
 import (
 	"testing"
 
-	"go-cidr-manager/ipv4cidr/consts"
+	"github.com/microsoft/go-cidr-manager/ipv4cidr/consts"
 
 	"github.com/stretchr/testify/assert"
 )

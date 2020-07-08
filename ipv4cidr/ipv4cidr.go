@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go-cidr-manager/ipv4cidr/consts"
-	"go-cidr-manager/ipv4cidr/utils"
+	"github.com/microsoft/go-cidr-manager/ipv4cidr/consts"
+	"github.com/microsoft/go-cidr-manager/ipv4cidr/utils"
 )
 
 // IPv4CIDR models an IPv4 CIDR range.

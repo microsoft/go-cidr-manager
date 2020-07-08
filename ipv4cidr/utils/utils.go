@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go-cidr-manager/ipv4cidr/consts"
+	"github.com/microsoft/go-cidr-manager/ipv4cidr/consts"
 )
 
 // GetNetmask takes the mask number as input and creates the netmask from it
