@@ -1,4 +1,4 @@
-![Go](https://github.com/microsoft/go-cidr-manager/workflows/Go/badge.svg?branch=main)
+[![Go](https://github.com/microsoft/go-cidr-manager/workflows/Go/badge.svg?branch=main)](https://github.com/microsoft/go-cidr-manager/actions?query=workflow%3AGo)
 [![GoDoc](https://godoc.org/github.com/microsoft/go-cidr-manager?status.png)](https://godoc.org/github.com/microsoft/go-cidr-manager)
 
 # CIDR Manager Utility for Go
