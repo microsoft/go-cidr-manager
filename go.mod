@@ -1,4 +1,4 @@
-module go-cidr-manager
+module github.com/microsoft/go-cidr-manager
 
 go 1.13
 
