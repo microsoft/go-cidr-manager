@@ -1,5 +1,9 @@
+# CIDR Manager Utility for Go
+This package provides tools for manipulating and handling CIDR blocks in Golang.
 
-# Contributing
+The current implementation supports IPv4 CIDR blocks. For more details, please check out the [IPv4 CIDR](https://github.com/microsoft/go-cidr-manager/tree/main/ipv4cidr#readme) section.
+
+## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
